@@ -11,7 +11,7 @@
     <!-- bootstrap icons link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
-<body>
+<body class="container">
     <div>
         <form>
             <h1 class="fw-bold text-center text-danger">Checkout form</h1>
@@ -22,25 +22,29 @@
                     <div class="col">
                         <label class="form-label">First name</label>
                         <input type="text" class="form-control rounded-pill"/>
-                    </div>
+                    </div> 
                     <div class="col">
                          <label class="form-label">Last name</label>
                          <input type="text" class="form-control rounded-pill"/>
                     </div>
                 </div>
+
                 <div class="row">
                     <label class="form-label">Email(optional)</label>
                     <input type="email" class="form-control rounded-pill" placeholder="you@example.com"/>
 
                 </div>
+
                 <div class="row">
                     <label class="form-label">Address</label>
                     <input type="text" class="form-control rounded-pill" placeholder="plaza street"/>
                 </div>
+
                 <div class="row">
                     <label>Address 2(optional)</label>
                     <input type="text" class="form-control rounded-pill" placeholder="Apartment or suite"/>
                 </div>
+
                 <div class="row mt-3">
                     <div class="col">
                         <label class="form-label">Country</label>
@@ -56,18 +60,54 @@
                         <label class="form-label">Zip</label>
                         <input type="number" class="form-control rounded-pill"/>
                     </div>
-
                 </div>
 
             </div>
-            <div class="col-3">
+            <div class="col-4">
                <div class="row justify-content-between">
                     <p class="text-primary display-5">Your cart
                         <span class=" bg-primary text-light badge rounded-pill float-end display-4">3 </span>
                     </p>
                 </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h6>Nike Jeans
+                            <span class="float-end text-muted">$500</span>
+                        </h6>
+                        <small class="text-muted">Best Quality</small>
+                    </li>
+                    <li class="list-group-item">
+                        <h6>shoe from bata
+                            <span class="float-end text-muted">$1000</span>
+                        </h6>
+                        <small class="text-muted">Best product</small>
+                    </li>
+                    <li class="list-group-item">
+                        <h6>Focut shirt
+                            <span class="float-end text-muted">$500</span>
+                        </h6>
+                        <small class="text-muted">Ladki pat jayegi</small>
+                    </li>
+                    <li class="list-group-item text-success">
+                        <h6>Promo code
+                            <span class="float-end text-muted">-$500</span>
+                        </h6>
+                        <small class="text-muted">SALE500</small>
+                    </li>
+                    <li class="list-group-item">
+                        <h6 class="text-muted">Total(rupee)
+                            <span class="float-end fw-bold">$1500</span>
+                        </h6>
+                    </li>
+                </ul>
+                <div class="mt-3 border border-4 bg-light">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Promo code"/>
+                        <button class="btn btn-danger">Redeem</button>
+                    </div>
+                </div>
             </div>
-           </div>
+        </div>
             
        </form>
     </div>
